@@ -27,7 +27,7 @@ import React,{useState} from 'react'
             <input name='final' placeholder='enter final amount' type='number' onChange={getCalculation1}></input>
             <input name='remaining' placeholder='enter auction number' type='number' onChange={getCalculation2}></input>
             <button className='btn' onClick={finalCalculation}>Calculate</button>
-            <p>Your final amount is:</p><h1>{balanceAmount}</h1>
+            <p>Your final amount is:</p> <h3>{balanceAmount}</h3>
         </div>
     )
 }
