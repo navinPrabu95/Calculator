@@ -25,7 +25,7 @@ import React,{useState} from 'react'
         <div className='card calculator-input' style={{width:'500px',margin:'20px auto',textAlign:'center',padding:'10px'}}>
             <h1>Calculator</h1>
             <input name='final' placeholder='enter final amount' type='number' onChange={getCalculation1}></input>
-            <input name='remaining' placeholder='enter no of round' type='number' onChange={getCalculation2}></input>
+            <input name='remaining' placeholder='enter auction number' type='number' onChange={getCalculation2}></input>
             <button className='btn' onClick={finalCalculation}>Calculate</button>
             <p>Your final amount is:</p><h1>{balanceAmount}</h1>
         </div>
